@@ -8,11 +8,21 @@
 
 
 
+## 社会网络分析
+
+社会网络分析 https://www.aliyundrive.com/s/mrDPw3wFJQp 
+
+
+
 ## 海量数据挖掘
 
 海量数据挖掘 https://www.aliyundrive.com/s/fVnTSPA8cpd 
 
 
+
+## 学术规范与论文写作
+
+学术规范与论文写作 https://www.aliyundrive.com/s/Nd7CVi5SsXr
 
 
 
