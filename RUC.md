@@ -121,6 +121,12 @@ https://iam.neea.edu.cn/login.html
 
 ## 常用网址与联系方法
 
+### 人大学姐公众号
+
+公众号：暮光春晓
+
+[中国人民大学在职研最全索引 (qq.com)](https://mp.weixin.qq.com/s?__biz=MzAwMjM3NjE1NA==&mid=503551418&idx=1&sn=710e65fbb16a79c67e162083b93f8605&scene=19#wechat_redirect)
+
 ### 人民大学研究生院
 
 http://grs.ruc.edu.cn/
