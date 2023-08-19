@@ -96,3 +96,9 @@
 人工智能（国考）-读研 https://www.aliyundrive.com/s/EiEfxTDrrqh 
 
 
+
+## 其它
+
+每周练习 https://www.aliyundrive.com/s/WpavgoYAD6M 
+
+密押卷 https://www.aliyundrive.com/s/JmGWVPuHaft 
