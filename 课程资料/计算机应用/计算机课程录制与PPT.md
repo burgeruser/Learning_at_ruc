@@ -57,5 +57,15 @@ https://www.aliyundrive.com/s/Qp33dGsyyrU
 
 王良老师的课程： 软件工程 https://www.aliyundrive.com/s/4DKJPSkoBYr 
 
+
+
+## 高级操作系统
+
+柴云鹏老师的课程：https://www.aliyundrive.com/s/THYcQtYoGM6
+
+
+
+
+
 **备注：请同学们共同保护老师的知识产权以及尊重老师的劳动成果，仅供个人学习使用。一定不要外传，更不允许在网络上进行传播，更不能用于商业。**
 
