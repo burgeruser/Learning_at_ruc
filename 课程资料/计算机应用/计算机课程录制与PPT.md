@@ -2,6 +2,12 @@
 
 
 
+## 文本挖掘
+
+https://www.alipan.com/s/PVaAUvvG9sG 
+
+
+
 ## 数据库管理系统原理与实现（DBMS）
 
 数据库管理系统原理与实现（DBMS）
