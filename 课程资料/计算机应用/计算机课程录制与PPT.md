@@ -2,6 +2,12 @@
 
 
 
+## 运筹与与优化理论
+
+https://www.alipan.com/s/LfFQv4FSezc
+
+
+
 ## 文本挖掘
 
 https://www.alipan.com/s/PVaAUvvG9sG 
