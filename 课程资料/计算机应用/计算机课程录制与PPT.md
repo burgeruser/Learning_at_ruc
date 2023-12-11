@@ -73,10 +73,10 @@ https://www.aliyundrive.com/s/Qp33dGsyyrU
 
 ## 高级操作系统
 
-柴云鹏老师的课程：https://www.aliyundrive.com/s/THYcQtYoGM6
+柴云鹏老师的课程(2022年4月)：https://www.aliyundrive.com/s/THYcQtYoGM6
 
 
-
+高级操作系统（柴云鹏老师最新2023年11月，视频压缩）：https://www.alipan.com/s/BQjcUjo4rVd  
 
 
 **备注：请同学们共同保护老师的知识产权以及尊重老师的劳动成果，仅供个人学习使用。一定不要外传，更不允许在网络上进行传播，更不能用于商业。**
