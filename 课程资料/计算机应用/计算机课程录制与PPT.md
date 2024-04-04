@@ -73,13 +73,14 @@ https://www.aliyundrive.com/s/Qp33dGsyyrU
 
 ## 高级操作系统
 
-柴云鹏老师的课程：https://www.aliyundrive.com/s/THYcQtYoGM6
+柴云鹏老师的课程(2022年4月)：https://www.aliyundrive.com/s/THYcQtYoGM6
 
-
+高级操作系统（柴云鹏老师最新2023年11月，视频压缩）：https://www.alipan.com/s/BQjcUjo4rVd  
 
 ## 中国特色社会主义理论与实践研究
 
 中国特色社会主义理论与实践（含2022与2024） https://www.alipan.com/s/vNQzDLsU33v  
+
 
 
 
