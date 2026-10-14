@@ -2,6 +2,9 @@
 
 > 本仓库是中国人民大学同等学力申硕（计算机 / 大数据 / 管科方向）的学习资料库，仅供个人学习使用。致力于打造最全最完整的学习资料。
 > 由学长 `jasnei` 的原始仓库 `Learning_at_ruc` 与学长 `Flamindle` 的 `RUC_CourseMaterials` 仓库的（最新commit:b36fc90c70e4679b3ad1538af3fcf2508cafaeb0）**合并整理**而成，涵盖课程复习资料、国考资料、课件 PPT、真题与学位论文写作资料。
+> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
+> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
+> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
 
 ---
 
@@ -24,7 +27,9 @@ Learning_at_ruc/
 **编号约定**：`NN_` 序号与 `Run_RUC_Course`、`整理后学习包` 保持一致（01~14 计算机、15~16 国考、17~21 大数据、22~28 管科）。本仓库只建立「实际有资料」的课程目录。
 
 > 说明：`16_国考英语`（英语真题见 RUC_CourseMaterials README 网盘链接）、`19_计算理论导引`、`28_IT项目管理` 暂无实体资料，未建目录。
-
+> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
+> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
+> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
 ---
 
 ## 一、课程全览
@@ -96,10 +101,18 @@ Learning_at_ruc/
 - 大文件（唯一未上传成功的文档）：https://pan.baidu.com/s/1-hyBLhyaXliZyiYsWEJzAA 提取码 `m9nx`
 - 2026 年 5 月国考计算机题汇总（豆包）：https://www.doubao.com/thread/xKLeJGZooqMvn4gqB
 
+> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
+> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
+> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
+
 ## 六、经验篇（原 RUC_CourseMaterials 说明）
 
 - 小论文（查找期刊 / 投稿方式、国家新闻出版署官网找期刊）：见 [RUC.md](RUC.md) 或原 README 小红书链接。
 - 大论文（毕业论文）：论文写作流程见 `论文写作资料\`。
+
+> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
+> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
+> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
 
 ---
 
@@ -112,6 +125,10 @@ Learning_at_ruc/
 - 课程课件、录屏属于授课老师知识产权，请勿外传、传播或商用。
 - 若原作者或版权方认为本仓库内容侵犯权益，请联系删除。
 
+> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
+> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
+> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
+
 ---
 
 ## 八、整理说明
@@ -119,3 +136,7 @@ Learning_at_ruc/
 - **①②（2026-10）**：将原「国考复习资料 / 考试复习资料 / 课程资料 / 论文写作资料」四大类重组为按课程一级目录，删除 3 份 MD5 重复文件。
 - **③（2026-10）**：合并 RUC_CourseMaterials 增量（cb494132→b36fc90c）与「新增部分」入 `整理后学习包`（解压 36 包、去重 573 个），并做章节学习包正文层更新。
 - **④（2026-10）**：将 `RUC_CourseMaterials`（Flamindle 学长仓库）的课程内容按本仓库 01-28 课程顺序合并入本仓库（MD5 去重 55 个），并合并本说明文档。
+
+> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
+> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
+> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
