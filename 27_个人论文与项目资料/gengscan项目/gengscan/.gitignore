@@ -1,0 +1,28 @@
+# Downloaded data — never commit papers / source data / figures
+data/
+papers/
+sources/
+figures/
+*.xlsx
+*.zip
+*.pdf
+fulltext.html
+
+# Results / scratch
+*.jsonl
+_*.json
+_*.txt
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

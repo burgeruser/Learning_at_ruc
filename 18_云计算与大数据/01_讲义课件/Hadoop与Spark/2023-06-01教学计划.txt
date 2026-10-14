@@ -1,0 +1,20 @@
+第一天上午/第一天下午
+	云计算
+	大数据
+	VMWare与CentOS实践
+	Hadoop原理与实践——初步
+
+
+第二天上午/第二天下午
+	Hadoop原理与实践
+	HBase原理与实践
+
+	Hive原理与实践
+	实际操练
+
+第三天上午/第三天下午
+	Spark原理与实践
+	Spark SQL/ MLLib/ GraphX原理与实践
+	Flume原理与实践
+	Kafka原理与实践
+	实际操练

@@ -1,42 +1,65 @@
-# Learning_at_ruc —— 中国人民大学同等学力申硕学习资料
+# Learning_at_ruc —— 中国人民大学同等学力申硕学习资料库
 
-> 本仓库是中国人民大学同等学力申硕（计算机 / 大数据 / 管科方向）的学习资料库，仅供个人学习使用。致力于打造最全最完整的学习资料。
-> 由学长 `jasnei` 的原始仓库 `Learning_at_ruc` 与学长 `Flamindle` 的 `RUC_CourseMaterials` 仓库的（最新commit:b36fc90c70e4679b3ad1538af3fcf2508cafaeb0）**合并整理**而成，涵盖课程复习资料、国考资料、课件 PPT、真题与学位论文写作资料。
-> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
-> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
-> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
+> 🎓 **欢迎每一位为梦想努力的同学！**
+> 这是一份由多届学长学姐接力整理、多次合并而成的中国人民大学同等学力申硕（**计算机 / 大数据 / 管理科学与工程**）学习资料库。
+> 无论你此刻是刚报名、正在备考，还是即将开题写论文——**这里都尽量为你备齐了路上需要的东西**。
+> 祝你备考顺利、一次通过、早日拿证！加油，你一定可以的 💪
 
 ---
 
-## 目录结构
+## 📍 仓库地址
+
+- **本仓库（主仓库）**：https://github.com/burgeruser/Learning_at_ruc
+- **本仓库镜像（国内 Gitee）**：https://gitee.com/openvisions/Learning_at_ruc
+- **配套仓库（国考计算机综合 / 国考英语 / 学术规范与论文写作等）**：https://github.com/burgeruser/Learning_at_ruc2
+- **配套仓库镜像（Gitee）**：https://gitee.com/openvisions/Learning_at_ruc2
+
+> ⚠️ **说明**：`国考计算机综合`、`国考英语`、`学术规范与论文写作`、`学校安排`、`招生简章` 等内容体积较大 / 面向特定用途，单独放在 **Learning_at_ruc2** 仓库中，请按需前往获取。
+
+---
+
+## 一、这份资料库是怎么来的（多次合并说明）
+
+本仓库经历了多轮整理与合并，最终汇聚成一个完整的学习资料库：
+
+| 阶段 | 内容 |
+|---|---|
+| ① ② | 将原学长仓库 `Learning_at_ruc` 的四大类资料，重组为**按课程一级目录**，删除重复文件 |
+| ③ | 合并 `RUC_CourseMaterials` 增量 + 群里「新增部分」入「整理后学习包」，解压 36 个压缩包、MD5 去重 |
+| ④ | 将 `RUC_CourseMaterials`（Flamindle 学长）的全部课程内容按课程顺序**合并入本仓库** |
+| ⑤ | 安全删除已合并、无用的 `RUC_CourseMaterials` 原路径 |
+| ⑥ | 将「整理后学习包」各课程资料合并入本仓库；为适配 Git/Gitee 仓库大小（≤5GB），删除全部视频及超过 30MB 的大文件 |
+| ⑦ | 合并所有说明文档为这一份 README.md |
+
+> 资料来源：多届学长学姐（jasnei、Flamindle 等）整理分享、任课老师课件、学习交流群、公开渠道等。**在此一并致谢所有无私分享的前辈与同学！**
+
+---
+
+## 二、目录结构
 
 ```
 Learning_at_ruc/
-├─ README.md / README.en.md / RUC.md / LICENSE   ← 说明文档
-├─ 01_网络与通信/ … 14_学术规范与论文写作/        ← 计算机专业 14 门（按推荐学习顺序编号）
-├─ 15_国考计算机综合/                            ← 国考（数学 + 五选二）
-├─ 17_大数据推荐与决策/ … 21_云计算与大数据/       ← 大数据专业课程
-├─ 22_高级管理学/ … 27_CIO与IT治理/              ← 管科专业课程
-├─ 管科其他课程/                                 ← 博弈论与信息经济学、宏观经济学（原经济管理方向）
-├─ 课程资料/                                     ← 各课程课件与录屏下载链接
-├─ 论文写作资料/                                 ← 学位论文（开题/答辩/模板/文献工具）
-├─ 学校安排/                                     ← 课程表等
-└─ 招生简章/                                     ← 2023 各方向招生简章
+├─ README.md                        ← 本文件（全览地图）
+├─ LICENSE                          ← 许可协议（CC BY-NC-SA 4.0）
+├─ 01_网络与通信/ … 13_自然辩证法概论/   ← 计算机专业 13 门
+├─ 14_大数据推荐与决策/ … 18_云计算与大数据/  ← 大数据专业 5 门
+├─ 19_高级管理学/ … 24_CIO与IT治理/       ← 管理科学与工程 6 门
+├─ 25_博弈论与信息经济学/、26_宏观经济学/   ← 管科补充课程
+└─ 27_个人论文与项目资料/             ← 个人论文与项目
 ```
 
-**编号约定**：`NN_` 序号与 `Run_RUC_Course`、`整理后学习包` 保持一致（01~14 计算机、15~16 国考、17~21 大数据、22~28 管科）。本仓库只建立「实际有资料」的课程目录。
+> 每个课程文件夹内有 `00_index.md` 文件清单，可直接查看该课全部文件。
+> 国考（计算机综合 / 英语）、学术规范与论文写作、学校安排、招生简章等见 **Learning_at_ruc2**。
 
-> 说明：`16_国考英语`（英语真题见 RUC_CourseMaterials README 网盘链接）、`19_计算理论导引`、`28_IT项目管理` 暂无实体资料，未建目录。
-> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
-> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
-> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
 ---
 
-## 一、课程全览
+## 三、课程全览
 
-| 序号 | 课程 | 类型 | 说明 |
+### 计算机专业 13 门（本方向核心）
+
+| 序号 | 课程 | 类型 | 一句话定位 |
 |---|---|---|---|
-| 01 | 网络与通信 | 题库考 | 自考旧题（04741 系列）+ 谢希仁教材 + 人大课件 |
+| 01 | 网络与通信 | 题库考 | 分层体系 + TCP/IP + 计算题 |
 | 02 | 数据库管理系统原理与实现（DBMS） | 题库考 | 实际考「数据仓库 + OLAP + 频繁模式 + 聚类」 |
 | 03 | 软件工程与方法 | 题库考 | 软工过程 + UML + 应用题 |
 | 04 | 新时代中国特色社会主义理论与实践 | 题库考 | 背记型，11 专题 |
@@ -49,22 +72,62 @@ Learning_at_ruc/
 | 11 | 离散数学 | 期末 | 关系 / 逻辑 / 图论 / 树，国考必考 |
 | 12 | 文本挖掘方法 | 期末 | NLP 基础 + 文本分类 |
 | 13 | 自然辩证法概论 | 期末 | 背记型，真题重复高 |
-| 14 | 学术规范与论文写作 | 期末 | 论文结构 + 学术伦理 |
-| 15 | 国考计算机综合 | 国考 | 数学 40 分 + 五选二各 30 分 |
-| 17 | 大数据推荐与决策 | 大数据 | 转方向 / 参考 |
-| 18 | 高级并行计算 | 大数据 | 原「分布与并行数据库」 |
-| 20 | 社会网络分析 | 大数据 | 原「社会网络分析与挖掘」 |
-| 21 | 云计算与大数据 | 大数据 | Hadoop / Spark 等 |
-| 22 | 高级管理学 | 管科 | 转方向 / 参考 |
-| 23 | 高级信息系统 | 管科 | |
-| 24 | 管理研究方法论 | 管科 | 含「现代统计方法」 |
-| 25 | 企业战略管理 | 管科 | |
-| 26 | 项目管理 | 管科 | |
-| 27 | CIO与IT治理 | 管科 | |
+
+> **14 学术规范与论文写作** → 移至 Learning_at_ruc2。
+
+### 大数据专业 5 门（转方向 / 参考）
+
+| 序号 | 课程 |
+|---|---|
+| 14 | 大数据推荐与决策 |
+| 15 | 高级并行计算 |
+| 16 | 计算理论导引 |
+| 17 | 社会网络分析 |
+| 18 | 云计算与大数据 |
+
+### 管理科学与工程 6 门（转方向 / 参考）
+
+| 序号 | 课程 |
+|---|---|
+| 19 | 高级管理学 |
+| 20 | 高级信息系统 |
+| 21 | 管理研究方法论 |
+| 22 | 企业战略管理 |
+| 23 | 项目管理 |
+| 24 | CIO与IT治理 |
+
+### 补充
+
+| 序号 | 文件夹 | 说明 |
+|---|---|---|
+| 25 | 博弈论与信息经济学 | 管科补充课程 |
+| 26 | 宏观经济学 | 管科补充课程 |
+| 27 | 个人论文与项目资料 | 个人论文与项目存档 |
 
 ---
 
-## 二、考试体系速览
+## 四、三专业学习顺序建议
+
+### 🖥️ 计算机专业（13 门 · 短期冲刺）
+
+1. **🥇 第 1 梯队（题库考 4 门，先啃）**：网络与通信 → DBMS → 软件工程与方法 → 中特
+2. **🥈 第 2 梯队（非题库高学分）**：海量数据挖掘 → 高级操作系统 → 运筹学 → 机器感知；英语贯穿全程
+3. **🥉 第 3 梯队（非题库低学分）**：组合数学 → 离散数学 → 文本挖掘 → 自然辩证法 → 学术规范（见 Learning_at_ruc2）
+
+> 合计冲刺约 45~55 天；同时备战国考时，数学与网络/软工章节可复用。国考资料见 **Learning_at_ruc2**。
+
+### 📊 大数据专业（5 门）
+
+> 云计算与大数据 → 大数据推荐与决策 → 高级并行计算 → 社会网络分析 → 计算理论导引
+
+### 📈 管理科学与工程（6 门 + 补充）
+
+> 高级管理学 → 企业战略管理 → 项目管理 → 高级信息系统 → 管理研究方法论 → CIO与IT治理
+> （博弈论与信息经济学、宏观经济学 可选修/补充）
+
+---
+
+## 五、考试体系速览
 
 | 考试类型 | 组织方 | 形式 | 特点 | 通过线 |
 |---|---|---|---|---|
@@ -72,71 +135,83 @@ Learning_at_ruc/
 | 期末考试 | 任课老师 | 开/闭卷（看老师） | 难度不大，按上课内容 + 往年题复习 | 60 分 |
 | 国考 | 全国统考 | 闭卷 | 2 门：英语 + 计算机综合（成绩保留 4 年） | 60 分 |
 
-> 题库考和国考**不是一回事**（例如「网络与通信」题库考以自考旧题为主，国考是谢希仁教材体系 + 计算题）。详见 [RUC.md](RUC.md)。
+> **国考要点**（资料见 Learning_at_ruc2）：英语 7 大题型（口语交际/词汇/阅读/完形/短文完成/英译汉/写作）；计算机综合 = 数学 40 分（组合+离散必考）+ 五选二各 30 分。
 
 ---
 
-## 三、国考要点
+## 六、常见问题 FAQ
 
-- **国考英语 = 7 大题型**：口语交际 10 + 词汇 10 + 阅读理解 25 + 完形 10 + 短文完成 20 + 英译汉 10 + 写作 15 = 100 分（150 分钟）。口语交际、短文完成常被遗漏（合计 30 分）。
-- **国考计算机综合** = 数学 40 分（组合 + 离散必考）+ 五选二各 30 分（计算机网络 / 软件工程 / 系统结构 / 人工智能 / 图形学）。
+### 报名与资格证
+
+- 报名系统：https://tdxl.ruc.edu.cn/sswap/wall/login （用户名身份证号，密码身份证号后 6 位，勿改密码）；未报名参考 http://info.ruc.edu.cn/ 。
+- **资格证**：参加考试（院考/校考）的证明，有效期 **4 年**，这 4 年内要考过国考 + 所有课程；**毕业论文时间不计入**。
+- 办理：一年两次（年初 / 9 月），具体截止时间咨询老师。
+
+### 补考
+
+- 期末：缺考/挂科补考**不收补考费**；题库考：补考 **250 元/科**；期末考试与题库考试需**一起缴费**才能录入成绩。
+
+### 老师联系方式
+
+| 姓名 | 电话 | 邮箱 | 办公地址 |
+|---|---|---|---|
+| 刘滢 | 010-62515875 | ly252671575@163.com | 信息楼253 |
+| 关宇 | 010-82500758；15701018284 | clovey_guan@ruc.edu.cn | 信息楼255 |
+| 王萍 | 010-82500758；15701016244 | wp0608@126.com | 信息楼255 |
+
+> 老师都很忙，回复可能不及时，请多点耐心。
 
 ---
 
-## 四、学习顺序建议
+## 七、课程课件与录屏下载链接
 
-1. 🥇 题库 4 门（网络 → DBMS → 软工 → 中特）
-2. 🥈 非题高学分（海量数据挖掘 → 高级操作系统 → 运筹学 → 机器感知；英语穿插）
-3. 🥉 非题低学分（组合 → 离散 → 文本挖掘 → 自然辩证法 → 学术规范）
+> 课件与录屏属于老师知识产权，仅供个人学习，请勿外传。⚠️ **视频与超大文件未随仓库存储**（为把仓库控制在 5GB 以内），请通过下方网盘链接按需下载。链接可能失效，以老师最新通知为准。
 
-> 合计冲刺约 45~55 天；同时备战国考时，数学与网络/软工章节可复用。
-
----
-
-## 五、资料篇（原 RUC_CourseMaterials 说明）
-
-- 原始学长仓库：https://github.com/jasnei/Learning_at_ruc
-- 教材类 PDF：可在 ZLibrary 搜索下载（https://z-library.im ，需科学上网）。
+- 网络与通信（何军老师）：https://www.aliyundrive.com/s/8hUShd2N8LK
+- DBMS：https://www.aliyundrive.com/s/Qp33dGsyyrU
+- 软件工程（王良老师）：https://www.aliyundrive.com/s/4DKJPSkoBYr
+- 中特（含 2022/2024）：https://www.alipan.com/s/vNQzDLsU33v
+- 海量数据挖掘：https://www.aliyundrive.com/s/fVnTSPA8cpd
+- 高级操作系统（柴云鹏老师）：https://www.aliyundrive.com/s/THYcQtYoGM6（2022）；https://www.alipan.com/s/BQjcUjo4rVd（2023 最新）
+- 运筹学与优化理论：https://www.alipan.com/s/LfFQv4FSezc
+- 文本挖掘：https://www.alipan.com/s/PVaAUvvG9sG
+- 组合数学（魏老师 + 李昊老师）：https://www.aliyundrive.com/s/7YW4EkhnTKV
+- 离散数学（李昊老师）：https://www.aliyundrive.com/s/NFwpAXpQNfQ
+- 自然辩证法：https://www.aliyundrive.com/s/6F616whQKtP
+- 学术规范与论文写作：https://www.aliyundrive.com/s/Nd7CVi5SsXr
+- 计算理论导引：https://www.aliyundrive.com/s/X3MCayxzSTW
+- 社会网络分析：https://www.aliyundrive.com/s/mrDPw3wFJQp
+- 管科课件（企业战略管理/管理研究方法论/高级管理学）：https://pan.baidu.com/s/1eYVJFroqF9YTkpfBl7yW4w 提取码 `s56x`
 - 国考英语真题（截至 2023）：https://pan.baidu.com/s/1b9HJp5isybb5u8-ISnntKg 提取码 `84pq`
-- 大文件（唯一未上传成功的文档）：https://pan.baidu.com/s/1-hyBLhyaXliZyiYsWEJzAA 提取码 `m9nx`
+- 教材（ZLibrary）：https://z-library.im （需科学上网）
 - 2026 年 5 月国考计算机题汇总（豆包）：https://www.doubao.com/thread/xKLeJGZooqMvn4gqB
 
-> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
-> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
-> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
-
-## 六、经验篇（原 RUC_CourseMaterials 说明）
-
-- 小论文（查找期刊 / 投稿方式、国家新闻出版署官网找期刊）：见 [RUC.md](RUC.md) 或原 README 小红书链接。
-- 大论文（毕业论文）：论文写作流程见 `论文写作资料\`。
-
-> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
-> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
-> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
-
 ---
 
-## 七、版权说明
+## 八、版权说明
 
-本仓库资料均为个人备考期间整理、收集所得，来源包括任课教师课件/讲义/PPT、学长学姐公开分享的备考资料、学习交流群同学分享、公开渠道（ZLibrary、百度网盘、小红书、论坛等）获取的文档、教材真题及汇总类 PDF。
+本仓库资料均为个人备考期间整理、收集所得，来源包括任课教师课件/讲义/PPT、学长学姐公开分享、学习交流群、公开渠道（ZLibrary、百度网盘、小红书、论坛等）。
 
 - 上述资料**著作权归原作者及原出版方所有**，本仓库仅出于个人学习、复习与交流目的整理分享，**不用于任何商业用途**，不代表任何官方立场。
-- 请勿用于商业用途或二次售卖；转载或引用请注明原始来源。
-- 课程课件、录屏属于授课老师知识产权，请勿外传、传播或商用。
-- 若原作者或版权方认为本仓库内容侵犯权益，请联系删除。
+- 请勿商用或二次售卖；转载请注明来源；课程课件/录屏属于老师知识产权，请勿外传。
+- 若原作者或版权方认为内容侵权，请联系删除。
 
-> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
-> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
-> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
+本仓库许可：**[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)**（署名-非商业-相同方式共享），详见 `LICENSE`。
 
 ---
 
-## 八、整理说明
+## 九、写在最后 · 祝福与鼓励
 
-- **①②（2026-10）**：将原「国考复习资料 / 考试复习资料 / 课程资料 / 论文写作资料」四大类重组为按课程一级目录，删除 3 份 MD5 重复文件。
-- **③（2026-10）**：合并 RUC_CourseMaterials 增量（cb494132→b36fc90c）与「新增部分」入 `整理后学习包`（解压 36 包、去重 573 个），并做章节学习包正文层更新。
-- **④（2026-10）**：将 `RUC_CourseMaterials`（Flamindle 学长仓库）的课程内容按本仓库 01-28 课程顺序合并入本仓库（MD5 去重 55 个），并合并本说明文档。
+亲爱的同学：
 
-> 本仓库已经停止维护更新！由于超出了Gitee的空间大小限制，于2026-10-14中午12:00从Github原像（https://github.com/burgeruser/Learning_at_ruc）同步失败！。
-> 原像地址：https://github.com/burgeruser/Learning_at_ruc & https://github.com/burgeruser/Learning_at_ruc2
-> 镜像地址：https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc & https://openi.pcl.ac.cn/Burgeruser/Learning_at_ruc2
+在职读研是一场持久战，白天上班、晚上和周末复习，真的很不容易。但请你相信——**每一份付出都不会白费**。那些挑灯夜读的晚上、反复刷题的日子，最终都会变成证书上你的名字。
+
+几点小小的鼓励送给你：
+
+- 🌱 **60 分万岁**：所有考试 60 分即可，别给自己太大压力，稳扎稳打就能过。
+- 📚 **先真题后课件**：真题是最高效的复习路线图，别在课件里迷路。
+- ✍️ **动手才算会**：计算题看懂 ≠ 会做，务必亲手算一遍。
+- 🤝 **你不是一个人**：这份资料背后，是一届届学长学姐的接力与祝福，遇到问题欢迎在群里交流。
+- ⏰ **贵在坚持**：哪怕每天只学 1 小时，坚持 1 年也远超临时抱佛脚。
+
+> **愿你所有努力都有回响，所有考试都顺利通过，早日拿到学位，前程似锦！加油！🎉**

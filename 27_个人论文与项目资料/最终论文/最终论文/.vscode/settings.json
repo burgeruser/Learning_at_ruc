@@ -1,0 +1,19 @@
+{
+    "latex-workshop.intellisense.biblatexJSON.replace": {}
+	
+    "latex-workshop.latex.tools":[
+        {
+            "name" : "latexmk",
+            "command" : "Latexmk",
+            "args" : [
+            "-xelatex",
+            "-synctex=1",
+            "-interaction=nonstopmode",
+            "-file-line-error",
+            "-outdir=%OUTDIR%",
+            "%DOC%"
+            ]
+        }
+    ],
+    "latex-workshop.formatting.latex" : "latexindent",
+}

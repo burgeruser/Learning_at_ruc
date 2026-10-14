@@ -1,0 +1,57 @@
+\contentsline {section}{\numberline {1}引言}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}研究背景与动机}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}核心洞察：从人类认知到模型偏见}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}研究贡献}{5}{subsection.1.3}%
+\contentsline {section}{\numberline {2}相关工作}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}大语言模型中的偏见}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}因果推断在 NLP 中的应用}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}现有去偏方法的局限性}{6}{subsection.2.3}%
+\contentsline {section}{\numberline {3}问题定义与因果形式化}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}偏见的形式化定义}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}因果图模型}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}去偏目标的形式化}{9}{subsection.3.3}%
+\contentsline {section}{\numberline {4}方法设计}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}方法总览}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}反事实数据集构建}{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}数据源}{10}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}敏感属性替换映射表}{11}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}生成算法}{13}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}数据规模估计}{14}{subsubsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.3}基线方法：标准 LoRA 微调}{15}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Do-operator 干预微调（核心方法）}{15}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}形式化定义}{15}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}去偏损失函数}{16}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}总损失函数}{16}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}理论分析}{18}{subsubsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}训练算法}{18}{subsubsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.5}因果图构建与偏见路径检测}{19}{subsection.4.5}%
+\contentsline {section}{\numberline {5}实验设计}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}实验设置}{19}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}模型与训练配置}{19}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}量化配置}{20}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}实验数据集}{21}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}实验流水线}{22}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}评估指标}{22}{subsection.5.4}%
+\contentsline {subsubsection}{\numberline {5.4.1}主要指标：偏见率（Bias Rate）}{22}{subsubsection.5.4.1}%
+\contentsline {subsubsection}{\numberline {5.4.2}辅助指标1：QA回答质量}{23}{subsubsection.5.4.2}%
+\contentsline {subsubsection}{\numberline {5.4.3}辅助指标2：困惑度}{23}{subsubsection.5.4.3}%
+\contentsline {subsubsection}{\numberline {5.4.4}评估指标汇总}{23}{subsubsection.5.4.4}%
+\contentsline {subsection}{\numberline {5.5}评估流程}{24}{subsection.5.5}%
+\contentsline {section}{\numberline {6}实验结果与分析}{25}{section.6}%
+\contentsline {subsection}{\numberline {6.1}主要结果：偏见率对比}{25}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}各类别偏见强度详情}{25}{subsubsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.2}语言能力保持}{26}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}消融实验}{26}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}去偏权重 $\lambda $ 的敏感性分析}{26}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}训练数据量消融}{27}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}去偏损失分量消融}{28}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}案例研究}{28}{subsection.6.4}%
+\contentsline {section}{\numberline {7}讨论}{29}{section.7}%
+\contentsline {subsection}{\numberline {7.1}与人类认知偏见的深层对应}{29}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}方法局限性}{29}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}伦理考量}{29}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}未来工作}{30}{subsection.7.4}%
+\contentsline {section}{\numberline {8}结论}{30}{section.8}%
+\contentsline {section}{\numberline {A}图清单}{33}{section.A}%
+\contentsline {section}{\numberline {B}完整源码目录}{33}{section.B}%
+\contentsline {section}{\numberline {C}实验可复现性说明}{34}{section.C}%

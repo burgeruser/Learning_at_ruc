@@ -1,0 +1,176 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\citation{kahneman2011}
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言}{4}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}研究背景与动机}{4}{subsection.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}核心洞察：从人类认知到模型偏见}{4}{subsection.1.2}\protected@file@percent }
+\citation{bolukbasi2016}
+\citation{nadeem2021}
+\citation{blodgett2020}
+\citation{garg2019}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces 人类认知偏见与LLM偏见的对应关系}}{5}{figure.caption.2}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:cognition}{{1}{5}{人类认知偏见与LLM偏见的对应关系}{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}研究贡献}{5}{subsection.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}相关工作}{5}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}大语言模型中的偏见}{5}{subsection.2.1}\protected@file@percent }
+\citation{xu2020}
+\citation{pearl2009}
+\citation{vig2020}
+\citation{elazar2018}
+\citation{ravfogel2020}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}因果推断在 NLP 中的应用}{6}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}现有去偏方法的局限性}{6}{subsection.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 现有去偏方法对比}}{6}{table.caption.3}\protected@file@percent }
+\newlabel{tab:debiasing_comparison}{{1}{6}{现有去偏方法对比}{table.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}问题定义与因果形式化}{6}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}偏见的形式化定义}{6}{subsection.3.1}\protected@file@percent }
+\citation{cover2006}
+\newlabel{eq:bias}{{1}{7}{偏见}{equation.1}{}}
+\newlabel{eq:bias_strength}{{2}{7}{偏见强度}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}因果图模型}{7}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 偏见因果图（Causal Diagram）：$S$为敏感属性，$C$为语义上下文，$Y$为模型输出。图中$S$与$C$之间的双向关联表示未观测混淆变量导致的统计相关性}}{8}{figure.caption.4}\protected@file@percent }
+\newlabel{fig:causal_graph}{{2}{8}{偏见因果图（Causal Diagram）：$S$为敏感属性，$C$为语义上下文，$Y$为模型输出。图中$S$与$C$之间的双向关联表示未观测混淆变量导致的统计相关性}{figure.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}去偏目标的形式化}{9}{subsection.3.3}\protected@file@percent }
+\newlabel{eq:objective}{{3}{9}{去偏目标的形式化}{equation.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}方法设计}{9}{section.4}\protected@file@percent }
+\newlabel{sec:method}{{4}{9}{方法设计}{section.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}方法总览}{9}{subsection.4.1}\protected@file@percent }
+\citation{xu2020}
+\citation{zhang2015}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 方法总览：三阶段流水线架构}}{10}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:method_overview}{{3}{10}{方法总览：三阶段流水线架构}{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}反事实数据集构建}{10}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:counterfactual}{{4.2}{10}{反事实数据集构建}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.1}数据源}{10}{subsubsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.2}敏感属性替换映射表}{11}{subsubsection.4.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 敏感属性替换规则}}{12}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:counterfactual_rules}{{4}{12}{敏感属性替换规则}{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 敏感属性替换映射表}}{13}{table.caption.7}\protected@file@percent }
+\newlabel{tab:replacement}{{2}{13}{敏感属性替换映射表}{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.3}生成算法}{13}{subsubsection.4.2.3}\protected@file@percent }
+\citation{hu2021}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces 反事实数据生成（CounterfactualGenerator）}}{14}{algorithm.1}\protected@file@percent }
+\newlabel{alg:counterfactual}{{1}{14}{反事实数据生成（CounterfactualGenerator）}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.2.4}数据规模估计}{14}{subsubsection.4.2.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 反事实数据规模估计}}{14}{table.caption.8}\protected@file@percent }
+\newlabel{tab:data_scale}{{3}{14}{反事实数据规模估计}{table.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}基线方法：标准 LoRA 微调}{15}{subsection.4.3}\protected@file@percent }
+\newlabel{eq:lora}{{4}{15}{基线方法：标准 LoRA 微调}{equation.4}{}}
+\newlabel{eq:task_loss}{{5}{15}{基线方法：标准 LoRA 微调}{equation.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces LoRA 配置}}{15}{table.caption.9}\protected@file@percent }
+\newlabel{tab:lora_config}{{4}{15}{LoRA 配置}{table.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Do-operator 干预微调（核心方法）}{15}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:do_operator}{{4.4}{15}{Do-operator 干预微调（核心方法）}{subsection.4.4}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.1}形式化定义}{15}{subsubsection.4.4.1}\protected@file@percent }
+\newlabel{eq:do_implementation}{{6}{15}{形式化定义}{equation.6}{}}
+\citation{cover2006}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2}去偏损失函数}{16}{subsubsection.4.4.2}\protected@file@percent }
+\newlabel{eq:debias_loss}{{7}{16}{去偏损失函数}{equation.7}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.3}总损失函数}{16}{subsubsection.4.4.3}\protected@file@percent }
+\newlabel{eq:total_loss}{{8}{16}{总损失函数}{equation.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Do-operator 训练损失计算流程}}{17}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:do_loss}{{5}{17}{Do-operator 训练损失计算流程}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4}理论分析}{18}{subsubsection.4.4.4}\protected@file@percent }
+\newlabel{proposition:causal}{{4.1}{18}{因果路径切断}{proposition.4.1}{}}
+\newlabel{proposition:language}{{4.2}{18}{语言能力保持}{proposition.4.2}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5}训练算法}{18}{subsubsection.4.4.5}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces Do-operator 干预微调}}{18}{algorithm.2}\protected@file@percent }
+\newlabel{alg:do_operator}{{2}{18}{Do-operator 干预微调}{algorithm.2}{}}
+\citation{belghazi2018}
+\citation{qwen2024}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}因果图构建与偏见路径检测}{19}{subsection.4.5}\protected@file@percent }
+\newlabel{eq:cmi}{{9}{19}{因果图构建与偏见路径检测}{equation.9}{}}
+\newlabel{eq:cmi_approx}{{10}{19}{因果图构建与偏见路径检测}{equation.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}实验设计}{19}{section.5}\protected@file@percent }
+\newlabel{sec:experiments}{{5}{19}{实验设计}{section.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}实验设置}{19}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}模型与训练配置}{19}{subsubsection.5.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 模型与训练配置}}{19}{table.caption.11}\protected@file@percent }
+\newlabel{tab:training_config}{{5}{19}{模型与训练配置}{table.caption.11}{}}
+\citation{dettmers2023}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}量化配置}{20}{subsubsection.5.1.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 量化配置与显存占用}}{20}{table.caption.12}\protected@file@percent }
+\newlabel{tab:quantization}{{6}{20}{量化配置与显存占用}{table.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces 显存占用分布（NF4量化 + LoRA + Do-operator）}}{20}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:memory}{{6}{20}{显存占用分布（NF4量化 + LoRA + Do-operator）}{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}实验数据集}{21}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces 实验数据集}}{21}{table.caption.14}\protected@file@percent }
+\newlabel{tab:datasets}{{7}{21}{实验数据集}{table.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}实验流水线}{22}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 实验流水线：6步完整流程}}{22}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:pipeline}{{7}{22}{实验流水线：6步完整流程}{figure.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}评估指标}{22}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.1}主要指标：偏见率（Bias Rate）}{22}{subsubsection.5.4.1}\protected@file@percent }
+\newlabel{eq:bias_score}{{11}{22}{主要指标：偏见率（Bias Rate）}{equation.11}{}}
+\newlabel{eq:ppl}{{12}{22}{主要指标：偏见率（Bias Rate）}{equation.12}{}}
+\newlabel{eq:bias_rate}{{13}{23}{主要指标：偏见率（Bias Rate）}{equation.13}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.2}辅助指标1：QA回答质量}{23}{subsubsection.5.4.2}\protected@file@percent }
+\newlabel{eq:qa_quality}{{14}{23}{辅助指标1：QA回答质量}{equation.14}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.3}辅助指标2：困惑度}{23}{subsubsection.5.4.3}\protected@file@percent }
+\newlabel{eq:mean_ppl}{{15}{23}{辅助指标2：困惑度}{equation.15}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.4.4}评估指标汇总}{23}{subsubsection.5.4.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces 评估指标汇总}}{23}{table.caption.16}\protected@file@percent }
+\newlabel{tab:metrics_summary}{{8}{23}{评估指标汇总}{table.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}评估流程}{24}{subsection.5.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 评估流程——三类评估并行执行}}{24}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:evaluation}{{8}{24}{评估流程——三类评估并行执行}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}实验结果与分析}{25}{section.6}\protected@file@percent }
+\newlabel{sec:results}{{6}{25}{实验结果与分析}{section.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}主要结果：偏见率对比}{25}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces 偏见率对比结果}}{25}{table.caption.18}\protected@file@percent }
+\newlabel{tab:main_results}{{9}{25}{偏见率对比结果}{table.caption.18}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}各类别偏见强度详情}{25}{subsubsection.6.1.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces 各类别偏见强度详情}}{25}{table.caption.19}\protected@file@percent }
+\newlabel{tab:category_detail}{{10}{25}{各类别偏见强度详情}{table.caption.19}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}语言能力保持}{26}{subsection.6.2}\protected@file@percent }
+\newlabel{sec:language_ability}{{6.2}{26}{语言能力保持}{subsection.6.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces 语言能力保持评估}}{26}{table.caption.20}\protected@file@percent }
+\newlabel{tab:ppl}{{11}{26}{语言能力保持评估}{table.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}消融实验}{26}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.1}去偏权重 $\lambda $ 的敏感性分析}{26}{subsubsection.6.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces $\lambda $ 消融实验}}{26}{table.caption.21}\protected@file@percent }
+\newlabel{tab:lambda_ablation}{{12}{26}{$\lambda $ 消融实验}{table.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces $\lambda $ 参数的三区域分析}}{27}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:lambda}{{9}{27}{$\lambda $ 参数的三区域分析}{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.2}训练数据量消融}{27}{subsubsection.6.3.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces 训练数据量消融实验}}{27}{table.caption.23}\protected@file@percent }
+\newlabel{tab:data_size}{{13}{27}{训练数据量消融实验}{table.caption.23}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.3.3}去偏损失分量消融}{28}{subsubsection.6.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces 去偏损失分量消融}}{28}{table.caption.24}\protected@file@percent }
+\newlabel{tab:loss_ablation}{{14}{28}{去偏损失分量消融}{table.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}案例研究}{28}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces 代表性回答对比}}{28}{table.caption.25}\protected@file@percent }
+\newlabel{tab:case_study}{{15}{28}{代表性回答对比}{table.caption.25}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}讨论}{29}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}与人类认知偏见的深层对应}{29}{subsection.7.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces 人类认知偏见与 LLM 偏见的深层对应}}{29}{table.caption.26}\protected@file@percent }
+\newlabel{tab:cognition_mapping}{{16}{29}{人类认知偏见与 LLM 偏见的深层对应}{table.caption.26}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}方法局限性}{29}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}伦理考量}{29}{subsection.7.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.4}未来工作}{30}{subsection.7.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {8}结论}{30}{section.8}\protected@file@percent }
+\bibcite{pearl2009}{1}
+\bibcite{hu2021}{2}
+\bibcite{vig2020}{3}
+\bibcite{dettmers2023}{4}
+\bibcite{bolukbasi2016}{5}
+\bibcite{nadeem2021}{6}
+\bibcite{blodgett2020}{7}
+\bibcite{garg2019}{8}
+\bibcite{elazar2018}{9}
+\bibcite{ravfogel2020}{10}
+\bibcite{belghazi2018}{11}
+\bibcite{xu2020}{12}
+\bibcite{qwen2024}{13}
+\bibcite{zhang2015}{14}
+\bibcite{kahneman2011}{15}
+\bibcite{cover2006}{16}
+\@writefile{toc}{\contentsline {section}{\numberline {A}图清单}{33}{section.A}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces 论文图清单}}{33}{table.caption.29}\protected@file@percent }
+\newlabel{tab:figures}{{17}{33}{论文图清单}{table.caption.29}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}完整源码目录}{33}{section.B}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {C}实验可复现性说明}{34}{section.C}\protected@file@percent }
+\gdef \@abspage@last{34}

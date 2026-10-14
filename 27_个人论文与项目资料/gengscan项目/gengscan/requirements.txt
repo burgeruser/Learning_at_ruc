@@ -1,0 +1,13 @@
+# Core numeric forensics
+openpyxl>=3.1        # read .xlsx Source Data
+numpy>=1.24
+
+# Scholar -> paper matching (OpenAlex / ORCID APIs)
+requests>=2.31
+pypinyin>=0.50       # Chinese name -> pinyin for matching
+
+# Image forensics (optional, only for the image module)
+opencv-python-headless>=4.8   # ORB local feature matching
+pillow>=10.0
+imagehash>=4.3       # perceptual hash pre-filter
+pymupdf>=1.23        # extract embedded images from PDF SI
